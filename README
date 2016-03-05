@@ -4,21 +4,27 @@
 '  '--'\\ '-'  |  |  |  |  | |  |\ '-'  |  \   '   
  `-----' `--`--'  `--'  `--' `--' `--`--'.-'  /    
                                          `---'     
-Cathay, a toy web server supports HTTP 1.1. 
+[中文版](/README_zh)     
+                                    
+Cathay is a toy web server supports a subset of HTTP 1.1. 
+Notice that this project is still in development and very 
+silly at the present. The prototype was made in Computer 
+Network course in early 2016. 
 
-Description
---------
-This is a web server for education purpose. It is made in computer 
-network class.
+To build it, you just simply compile several source files 
+inside the src directory. It should works on both windows 
+and linux. If you get some trouble, send email to me and 
+I will fix it. 
 
-Build
---------
-	
-Usage
---------
+To launch the server, run the following command: 
+    
+    cathay <portnumber>
 
-License
---------
+Then type "http://localhost:<portnumber>/index.html" in 
+your browser address bar and hit enter, you should be able 
+to get some feedback. Screenshot: 
+    
+    /doc/screenshot/a.png
 
-About
---------
+Again, this project is still at an early stage. Maybe some 
+day, it will be released as the final version. 
